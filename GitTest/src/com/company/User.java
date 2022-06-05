@@ -5,19 +5,19 @@ public class User
     private String name;
     private String password;
 
-    public void setName(String name) {
+    public void SetName(String name) {
         this.name = name;
     }
 
-    public void setPassword(String password) {
+    public void SetPassword(String password) {
         this.password = password;
     }
 
-    public String getName() {
+    public String GetName() {
         return this.name;
     }
 
-    public String getPassword() {
+    public String GetPassword() {
         return this.password;
     }
 }
