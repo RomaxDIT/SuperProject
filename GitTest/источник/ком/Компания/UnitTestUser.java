@@ -4,9 +4,11 @@ import org.junit.Test;
 public class UnitTestUser {
 
     private Logger log = Logger.getLogger(this.getClass());
+    
     @Test
     public void SetName(){
-        try {
+        try 
+        {
             log.info("Начало выполнения SetName ");
             String name="";
 
@@ -14,7 +16,8 @@ public class UnitTestUser {
             user.SetName(name);
             assertTrue(true);
 
-        } catch (Exception exception)
+        } 
+        catch (Exception exception)
         {
             log.error("Исключение при выполнении SetName - " + exception,exception);
             exception.printStackTrace();
